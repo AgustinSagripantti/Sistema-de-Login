@@ -17,13 +17,13 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
    npm install
 4. Configura la base de dotos:
   - Crea una base de datos MySql
-    - Crea una tabla con sus respectivos campos
-      - Renombra el archivo .env.example a .env y configura tus credenciales de base de datos MySQL en él.
+  - Crea una tabla con sus respectivos campos
+  - Renombra el archivo .env.example a .env y configura tus credenciales de base de datos MySQL en él.
 5. Inicia la aplicación:
     ```sh
     npm run dev
         
-##Uso
+## Uso
 Para utilizar el sistema de login, abre http://localhost:3000 en tu navegador. Aquí puedes registrarte, iniciar sesión y gestionar tu cuenta.
 
 Rutas Principales
@@ -31,7 +31,7 @@ Rutas Principales
 /login: Página de inicio de sesión.
 /admin: Página de perfil del usuario (requiere autenticación).
 
-##Contribución
+## Contribución
 Las contribuciones son bienvenidas. Para hacerlo, sigue estos pasos:
 
 1. Realiza un fork de este repositorio.
@@ -46,5 +46,5 @@ Las contribuciones son bienvenidas. Para hacerlo, sigue estos pasos:
     git push origin nombre-de-tu-rama
 4. Abre una Pull Request.
 
-##Contacto
+## Contacto
 Agustin Sagripantti - asagripantti@gmail.com

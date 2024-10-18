@@ -7,12 +7,13 @@ import {methods as authentication} from "./controllers/authentication.controller
 import {methods as authorization} from "./middlewares/authorization.js";
 
 const app = express();
-app.set("port",4000);
-app.listen(app.get("port"));
-console.log("Servidor corriendo en puerto",app.get("port"));
+app.set("port", process.env.PORT || 4000); 
+app.listen(app.get("port"), () => {
+  console.log("Servidor corriendo en puerto", app.get("port"));
+});
+
 
 app.use(express.static(__dirname + "/public"));
-app.use(express.static(__dirname + "/assets"));
 app.use(express.json());
 app.use(cookieParser());
 

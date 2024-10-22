@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js" defer></script>
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+  <div class="container">
+    <div class="img-container">
+      <img src="./assets/buzon.png" class="img-form">
+    </div>
+    <div class="form-container">
+      <form class="formulario" id="login-form">
+        <label for="user" class="sr-only">User</label>
+        <input type="text" name="user" id="user" placeholder="Nombre de usuario" required="" class="input">
+        <label for="password" class="sr-only">Password</label>
+        <input type="password" name="password" id="password" placeholder="Contraseña" required="" class="input">
+        <input type="submit" value="Iniciar Sesión" class="input button-input">
+      </form>
+      <p class="error escondido">Error al iniciar sesión.</p>
+      <p class="derivacion">¿No tienes una cuenta?  <a class="link-derivacion" href="register.html">Regístrate</a></p>
+    </div>
+  </div>
+</body>
+</html>

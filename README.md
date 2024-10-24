@@ -9,6 +9,7 @@
 - JavaScript
 - Node JS
 - Express
+- MySQL
 
 ## Conclusión
 Al ser mi primer proyecto full stack, me he llevado muchisimo aprendizaje sobre el backend. Poner en práctica la implementación de autorización, autenticación, endpoints, middlewares, cors, peticiones HTTP, conexión y comunicación con base de datos, etc, me hicieron un programador mas completo y con mas experiencia.
